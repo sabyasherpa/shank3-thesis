@@ -12,7 +12,7 @@ BiocManager::install("ggfortify")
 BiocManager::install("ggrepel")
 BiocManager::install("pheatmap")
 BiocManager::install("orthogene")
-BiocManager::install("bioMart")
+
 BiocManager::install("remotes")
 BiocManager::install("vitkl/orthologsBioMART")
 
@@ -26,7 +26,6 @@ library(ggrepel)
 library(pheatmap)
 library(orthogene)
 library(gprofiler2)
-library(biomaRt)
 library(orthologsBioMART)
 
 #load processed count data and create some overview plots.
